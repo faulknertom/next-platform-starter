@@ -6,6 +6,7 @@ export default function AldeburghLeistonCandidatePage() {
         "Supporting projects that conserve the Heritage Coast and resisting unnecessary industrialisation through large energy infrastructure programmes.",
       image: "/images/tom-river-alde.jpg",
       alt: "Tom Faulkner by the River Alde",
+      imageClassName: "h-56 w-full object-contain bg-slate-100 p-2",
     },
     {
       title: "Better connect our communities",
@@ -13,6 +14,7 @@ export default function AldeburghLeistonCandidatePage() {
         "Exploring improvements to footpaths, cycle routes and local transport so towns and villages across our area are better connected.",
       image: "/images/tom-ebike.jpg",
       alt: "Tom Faulkner discussing walking and cycling routes in the local area",
+      imageClassName: "h-56 w-full object-contain bg-slate-100 p-2",
     },
     {
       title: "Your priorities matter most",
@@ -20,6 +22,7 @@ export default function AldeburghLeistonCandidatePage() {
         "My third priority will be yours. I want to attend local meetings, listen properly and put my time and energy where residents most want support.",
       image: "/images/tom-potholes.jpg",
       alt: "Tom Faulkner highlighting potholes in Aldeburgh",
+      imageClassName: "h-56 w-full object-cover object-center",
     },
   ];
 
@@ -29,12 +32,14 @@ export default function AldeburghLeistonCandidatePage() {
       image: "/images/tom-butcher.jpg",
       alt: "Tom Faulkner visiting a local butcher",
       text: "Independent businesses help give Aldeburgh, Leiston and our surrounding villages their character and vitality.",
+      imageClassName: "h-72 w-full object-contain bg-slate-100 p-2",
     },
     {
       title: "Using local facilities",
       image: "/images/tom-leiston-leisure.jpg",
       alt: "Tom Faulkner outside Leiston Leisure Centre",
       text: "Facilities like Leiston Leisure Centre are important community assets that deserve support.",
+      imageClassName: "h-72 w-full object-cover object-center",
     },
   ];
 
@@ -57,10 +62,18 @@ export default function AldeburghLeistonCandidatePage() {
           </div>
 
           <nav className="hidden gap-6 text-sm text-slate-600 md:flex">
-            <a href="#about" className="hover:text-slate-900">About</a>
-            <a href="#priorities" className="hover:text-slate-900">Priorities</a>
-            <a href="#community" className="hover:text-slate-900">Community</a>
-            <a href="#contact" className="hover:text-slate-900">Contact</a>
+            <a href="#about" className="hover:text-slate-900">
+              About
+            </a>
+            <a href="#priorities" className="hover:text-slate-900">
+              Priorities
+            </a>
+            <a href="#community" className="hover:text-slate-900">
+              Community
+            </a>
+            <a href="#contact" className="hover:text-slate-900">
+              Contact
+            </a>
           </nav>
         </div>
       </header>
@@ -77,7 +90,9 @@ export default function AldeburghLeistonCandidatePage() {
             </h1>
 
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-700">
-              A local resident with strong family roots in the area, standing to offer energetic, practical and visible representation for Aldeburgh, Leiston, Knodishall and surrounding communities.
+              A local resident with strong family roots in the area, standing to
+              offer energetic, practical and visible representation for
+              Aldeburgh, Leiston, Knodishall and surrounding communities.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -107,7 +122,10 @@ export default function AldeburghLeistonCandidatePage() {
         </div>
       </section>
 
-      <section id="about" className="mx-auto max-w-6xl px-6 py-16 md:px-8 lg:px-10">
+      <section
+        id="about"
+        className="mx-auto max-w-6xl px-6 py-16 md:px-8 lg:px-10"
+      >
         <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-slate-200">
             <img
@@ -128,19 +146,27 @@ export default function AldeburghLeistonCandidatePage() {
 
             <div className="mt-6 space-y-4 text-base leading-8 text-slate-700">
               <p>
-                I’m Tom Faulkner, a local resident with family and friends living in Aldeburgh and Leiston.
+                I’m Tom Faulkner, a local resident with family and friends living
+                in Aldeburgh and Leiston.
               </p>
 
               <p>
-                I have 25 years of business experience in the UK and abroad, and I want to use that experience to support worthwhile local projects, be a strong voice for residents, and bring energy, positivity and a can-do attitude to local governance.
+                I have 25 years of business experience in the UK and abroad, and
+                I want to use that experience to support worthwhile local
+                projects, be a strong voice for residents, and bring energy,
+                positivity and a can-do attitude to local governance.
               </p>
 
               <p>
-                My connection to this area goes back a long way. My grandparents lived in Knodishall, my mother lived in Knodishall and then Aldeburgh, and I have been coming here all my life.
+                My connection to this area goes back a long way. My grandparents
+                lived in Knodishall, my mother lived in Knodishall and then
+                Aldeburgh, and I have been coming here all my life.
               </p>
 
               <p>
-                Put simply, I am a product of this area. It has shaped me and given me a huge amount of joy, and I want to help conserve it for future generations.
+                Put simply, I am a product of this area. It has shaped me and
+                given me a huge amount of joy, and I want to help conserve it for
+                future generations.
               </p>
             </div>
           </div>
@@ -159,7 +185,9 @@ export default function AldeburghLeistonCandidatePage() {
             </h2>
 
             <p className="mt-4 text-base leading-8 text-slate-700">
-              I want to focus on a small number of practical priorities that reflect the character of this area and the concerns residents raise most often.
+              I want to focus on a small number of practical priorities that
+              reflect the character of this area and the concerns residents raise
+              most often.
             </p>
           </div>
 
@@ -172,13 +200,17 @@ export default function AldeburghLeistonCandidatePage() {
                 <img
                   src={item.image}
                   alt={item.alt}
-                  className="h-56 w-full object-cover object-center"
+                  className={item.imageClassName}
                 />
 
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold tracking-tight">{item.title}</h3>
+                  <h3 className="text-xl font-semibold tracking-tight">
+                    {item.title}
+                  </h3>
 
-                  <p className="mt-3 text-sm leading-7 text-slate-700">{item.text}</p>
+                  <p className="mt-3 text-sm leading-7 text-slate-700">
+                    {item.text}
+                  </p>
                 </div>
               </div>
             ))}
@@ -186,7 +218,10 @@ export default function AldeburghLeistonCandidatePage() {
         </div>
       </section>
 
-      <section id="community" className="mx-auto max-w-6xl px-6 py-16 md:px-8 lg:px-10">
+      <section
+        id="community"
+        className="mx-auto max-w-6xl px-6 py-16 md:px-8 lg:px-10"
+      >
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
             In the community
@@ -206,13 +241,17 @@ export default function AldeburghLeistonCandidatePage() {
               <img
                 src={item.image}
                 alt={item.alt}
-                className="h-72 w-full object-cover object-center"
+                className={item.imageClassName}
               />
 
               <div className="p-6">
-                <h3 className="text-xl font-semibold tracking-tight">{item.title}</h3>
+                <h3 className="text-xl font-semibold tracking-tight">
+                  {item.title}
+                </h3>
 
-                <p className="mt-3 text-sm leading-7 text-slate-700">{item.text}</p>
+                <p className="mt-3 text-sm leading-7 text-slate-700">
+                  {item.text}
+                </p>
               </div>
             </div>
           ))}
@@ -232,15 +271,21 @@ export default function AldeburghLeistonCandidatePage() {
 
             <div className="mt-6 space-y-4 text-base leading-8 text-slate-300">
               <p>
-                I want to play a more active role in supporting the communities that mean so much to me.
+                I want to play a more active role in supporting the communities
+                that mean so much to me.
               </p>
 
               <p>
-                County council decisions affect roads, transport, local services and the long-term character of this area. Residents deserve a councillor who is visible, accessible and prepared to make the case for local people clearly and persistently.
+                County council decisions affect roads, transport, local services
+                and the long-term character of this area. Residents deserve a
+                councillor who is visible, accessible and prepared to make the
+                case for local people clearly and persistently.
               </p>
 
               <p>
-                My aim is simple: listen properly, turn up, work hard and help protect what makes Aldeburgh, Leiston and the surrounding villages special.
+                My aim is simple: listen properly, turn up, work hard and help
+                protect what makes Aldeburgh, Leiston and the surrounding
+                villages special.
               </p>
             </div>
           </div>
@@ -268,15 +313,23 @@ export default function AldeburghLeistonCandidatePage() {
               </h2>
 
               <p className="mt-5 max-w-2xl text-base leading-8 text-slate-700">
-                I’ll be adding campaign contact details shortly. This page is designed to be a simple place for residents to learn more about me, my priorities and the issues I care about.
+                I’ll be adding campaign contact details shortly. This page is
+                designed to be a simple place for residents to learn more about
+                me, my priorities and the issues I care about.
               </p>
             </div>
 
             <div className="rounded-[2rem] bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200">
               <div className="space-y-3 text-sm leading-7 text-slate-700">
-                <p><strong>Email:</strong> To be added</p>
-                <p><strong>Facebook:</strong> To be added</p>
-                <p><strong>Phone:</strong> Optional</p>
+                <p>
+                  <strong>Email:</strong> To be added
+                </p>
+                <p>
+                  <strong>Facebook:</strong> To be added
+                </p>
+                <p>
+                  <strong>Phone:</strong> Optional
+                </p>
               </div>
             </div>
           </div>
@@ -286,11 +339,13 @@ export default function AldeburghLeistonCandidatePage() {
       <footer className="border-t bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-8 text-xs leading-6 text-slate-500 md:px-8 lg:px-10">
           <p>
-            Promoted by [Agent / Promoter Name] on behalf of Tom Faulkner, both at [full postal address].
+            Promoted by [Agent / Promoter Name] on behalf of Tom Faulkner, both
+            at [full postal address].
           </p>
 
           <p className="mt-2">
-            Replace this with the final approved legal imprint before publication.
+            Replace this with the final approved legal imprint before
+            publication.
           </p>
         </div>
       </footer>
