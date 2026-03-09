@@ -11,7 +11,7 @@ export default function AldeburghLeistonCandidatePage() {
       title: "Better connect our communities",
       text:
         "Exploring improvements to footpaths, cycle routes and local transport so towns and villages across our area are better connected.",
-      image: "/images/tom-cycle-path.jpg",
+      image: "/images/tom-ebike.jpg",
       alt: "Tom Faulkner discussing walking and cycling routes in the local area",
     },
     {
