@@ -5,7 +5,7 @@ export default function AldeburghLeistonCandidatePage() {
       text:
         "Supporting projects that conserve the Heritage Coast and resisting unnecessary industrialisation through large energy infrastructure programmes.",
       image: "/images/tom-river-alde.jpg",
-      alt: "Tom Faulkner standing near electricity pylons highlighting concerns about infrastructure",
+      alt: "Tom Faulkner by the River Alde",
     },
     {
       title: "Better connect our communities",
@@ -50,7 +50,9 @@ export default function AldeburghLeistonCandidatePage() {
             />
             <div>
               <p className="text-sm font-semibold text-slate-900">Tom Faulkner</p>
-              <p className="text-xs text-slate-500">Conservative candidate for Aldeburgh & Leiston</p>
+              <p className="text-xs text-slate-500">
+                Conservative candidate for Aldeburgh & Leiston
+              </p>
             </div>
           </div>
 
@@ -99,7 +101,7 @@ export default function AldeburghLeistonCandidatePage() {
             <img
               src="/images/tom-pylons.jpg"
               alt="Tom Faulkner standing near pylons in the Suffolk countryside"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-[center_22%]"
             />
           </div>
         </div>
@@ -111,7 +113,7 @@ export default function AldeburghLeistonCandidatePage() {
             <img
               src="/images/tom-leiston-leisure.jpg"
               alt="Tom Faulkner outside Leiston Leisure Centre"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-center"
             />
           </div>
 
@@ -130,7 +132,7 @@ export default function AldeburghLeistonCandidatePage() {
               </p>
 
               <p>
-                I have 25 years of business experience in the UK and abroad, and I want to use that experience to support worthwhile local projects, be a strong voice for residents, and bring energy, positivity and a can‑do attitude to local governance.
+                I have 25 years of business experience in the UK and abroad, and I want to use that experience to support worthwhile local projects, be a strong voice for residents, and bring energy, positivity and a can-do attitude to local governance.
               </p>
 
               <p>
@@ -163,8 +165,15 @@ export default function AldeburghLeistonCandidatePage() {
 
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {priorities.map((item) => (
-              <div key={item.title} className="overflow-hidden rounded-[2rem] bg-slate-50 shadow-sm ring-1 ring-slate-200">
-                <img src={item.image} alt={item.alt} className="h-56 w-full object-cover" />
+              <div
+                key={item.title}
+                className="overflow-hidden rounded-[2rem] bg-slate-50 shadow-sm ring-1 ring-slate-200"
+              >
+                <img
+                  src={item.image}
+                  alt={item.alt}
+                  className="h-56 w-full object-cover object-center"
+                />
 
                 <div className="p-6">
                   <h3 className="text-xl font-semibold tracking-tight">{item.title}</h3>
@@ -190,8 +199,15 @@ export default function AldeburghLeistonCandidatePage() {
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
           {community.map((item) => (
-            <div key={item.title} className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-slate-200">
-              <img src={item.image} alt={item.alt} className="h-72 w-full object-cover" />
+            <div
+              key={item.title}
+              className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-slate-200"
+            >
+              <img
+                src={item.image}
+                alt={item.alt}
+                className="h-72 w-full object-cover object-center"
+              />
 
               <div className="p-6">
                 <h3 className="text-xl font-semibold tracking-tight">{item.title}</h3>
@@ -220,7 +236,7 @@ export default function AldeburghLeistonCandidatePage() {
               </p>
 
               <p>
-                County council decisions affect roads, transport, local services and the long‑term character of this area. Residents deserve a councillor who is visible, accessible and prepared to make the case for local people clearly and persistently.
+                County council decisions affect roads, transport, local services and the long-term character of this area. Residents deserve a councillor who is visible, accessible and prepared to make the case for local people clearly and persistently.
               </p>
 
               <p>
@@ -233,7 +249,7 @@ export default function AldeburghLeistonCandidatePage() {
             <img
               src="/images/tom-river-alde.jpg"
               alt="Tom Faulkner by the River Alde"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-[center_35%]"
             />
           </div>
         </div>
