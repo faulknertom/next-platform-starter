@@ -34,13 +34,12 @@ export default function AldeburghLeistonCandidatePage() {
       text: "Independent businesses help give Aldeburgh, Leiston and our surrounding villages their character and vitality.",
       imageClassName: "h-72 w-full object-contain bg-slate-100 p-2",
     },
-    {
-      title: "Using local facilities",
-      image: "/images/tom-leiston-leisure.jpg",
-      alt: "Tom Faulkner outside Leiston Leisure Centre",
-      text: "Facilities like Leiston Leisure Centre are important community assets that deserve support.",
-      imageClassName: "h-72 w-full object-cover object-center",
-    },
+ {
+  title: "Supporting a strong sense of community",
+  image: "/images/aldeburgh-horses.jpg",
+  alt: "Horses outside a pub on Aldeburgh High Street",
+  text: "Aldeburgh, Leiston and our surrounding villages have a unique character built on strong community spirit. Supporting local events, businesses and gathering places helps keep that spirit alive.",
+},
   ];
 
   return (
