@@ -26,21 +26,22 @@ export default function AldeburghLeistonCandidatePage() {
     },
   ];
 
-  const community = [
-    {
-      title: "Supporting local business",
-      image: "/images/tom-butcher.jpg",
-      alt: "Tom Faulkner visiting a local butcher",
-      text: "Independent businesses help give Aldeburgh, Leiston and our surrounding villages their character and vitality.",
-      imageClassName: "h-72 w-full object-contain bg-slate-100 p-2",
-    },
- {
-  title: "Supporting a strong sense of community",
-  image: "/images/aldeburgh-horses.jpeg",
-  alt: "Horses outside a pub on Aldeburgh High Street",
-  text: "Aldeburgh, Leiston and our surrounding villages have a unique character built on strong community spirit. Supporting local events, businesses and gathering places helps keep that spirit alive.",
-},
-  ];
+const community = [
+  {
+    title: "Supporting local business",
+    image: "/images/tom-butcher.jpg",
+    alt: "Tom Faulkner visiting a local butcher",
+    text: "Independent businesses help give Aldeburgh, Leiston and our surrounding villages their character and vitality.",
+    imageClassName: "h-64 w-full object-cover object-center",
+  },
+  {
+    title: "Supporting a strong sense of community",
+    image: "/images/aldeburgh-horses.jpeg",
+    alt: "Horses outside a pub on Aldeburgh High Street",
+    text: "Aldeburgh, Leiston and our surrounding villages have a unique character built on strong community spirit. Supporting local events, businesses and gathering places helps keep that spirit alive.",
+    imageClassName: "h-64 w-full object-cover object-center",
+  },
+];
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
