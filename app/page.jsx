@@ -36,7 +36,7 @@ export default function AldeburghLeistonCandidatePage() {
     },
  {
   title: "Supporting a strong sense of community",
-  image: "/images/aldeburgh-horses.jpg",
+  image: "/images/aldeburgh-horses.jpeg",
   alt: "Horses outside a pub on Aldeburgh High Street",
   text: "Aldeburgh, Leiston and our surrounding villages have a unique character built on strong community spirit. Supporting local events, businesses and gathering places helps keep that spirit alive.",
 },
