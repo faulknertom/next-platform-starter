@@ -185,7 +185,7 @@ export default function AldeburghLeistonCandidatePage() {
             </h2>
 
             <p className="mt-4 text-base leading-8 text-slate-700">
-              I want to focus on a small number of practical priorities that
+              I want to support and continue the great work of my predecessor and in addition to focus on a small number of practical priorities that
               reflect the character of this area and the concerns residents raise
               most often.
             </p>
