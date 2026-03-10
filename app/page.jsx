@@ -32,14 +32,14 @@ const community = [
     image: "/images/tom-butcher.jpg",
     alt: "Tom Faulkner visiting a local butcher",
     text: "Independent businesses help give Aldeburgh, Leiston and our surrounding villages their character and vitality.",
-    imageClassName: "h-80 w-full object-cover object-top",
+    imageClassName: "h-90 w-full object-cover object-top",
   },
   {
     title: "Supporting a strong sense of community",
     image: "/images/aldeburgh-horses.jpeg",
     alt: "Horses outside a pub on Aldeburgh High Street",
     text: "Aldeburgh, Leiston and our surrounding villages have a unique character built on strong community spirit. Supporting local events, businesses and gathering places helps keep that spirit alive.",
-    imageClassName: "h-80 w-full object-cover object-center",
+    imageClassName: "h-90 w-full object-cover object-top",
   },
 ];
 
