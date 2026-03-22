@@ -292,8 +292,8 @@ const community = [
 
           <div className="overflow-hidden rounded-[2rem] ring-1 ring-white/10">
             <img
-              src="/images/tom-river-alde.jpg"
-              alt="Tom Faulkner by the River Alde"
+              src="/images/tom-moothall2.jpg"
+              alt="Tom Faulkner by the Moot Hall"
               className="h-full w-full object-cover object-[center_35%]"
             />
           </div>
