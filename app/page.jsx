@@ -322,13 +322,13 @@ const community = [
             <div className="rounded-[2rem] bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200">
               <div className="space-y-3 text-sm leading-7 text-slate-700">
                 <p>
-                  <strong>Email:</strong> To be added
+                  <strong>Email:</strong> cllr.faulkner@outlook.com
                 </p>
                 <p>
                   <strong>Facebook:</strong> To be added
                 </p>
                 <p>
-                  <strong>Phone:</strong> Optional
+                  <strong>Phone:</strong> +44 7380 931 208
                 </p>
               </div>
             </div>
