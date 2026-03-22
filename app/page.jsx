@@ -343,10 +343,7 @@ const community = [
             Promoted by Geoff Holdcroft on behalf of Tom Faulkner and Suffolk Coastal Conservatives all of 4 Cumberland Street, Woodbridge, IP12 4AB
           </p>
 
-          <p className="mt-2">
-            Replace this with the final approved legal imprint before
-            publication.
-          </p>
+          
         </div>
       </footer>
     </div>
