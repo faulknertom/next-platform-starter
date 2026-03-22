@@ -325,8 +325,7 @@ const community = [
                   <strong>Email:</strong> cllr.faulkner@outlook.com
                 </p>
                <p>
-<p>
-  <a
+                 <a
     href="https://www.facebook.com/profile.php?id=61579467403113"
     target="_blank"
     rel="noopener noreferrer"
