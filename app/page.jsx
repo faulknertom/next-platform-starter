@@ -325,7 +325,8 @@ const community = [
                   <strong>Email:</strong> cllr.faulkner@outlook.com
                 </p>
                 <p>
-                  <strong>Facebook:</strong> To be added
+                  <strong>Facebook:</strong> https://www.facebook.com/profile.php?id=61579467403113
+                
                 </p>
                 <p>
                   <strong>Phone:</strong> +44 7380 931 208
@@ -339,8 +340,7 @@ const community = [
       <footer className="border-t bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-8 text-xs leading-6 text-slate-500 md:px-8 lg:px-10">
           <p>
-            Promoted by [Agent / Promoter Name] on behalf of Tom Faulkner, both
-            at [full postal address].
+            Promoted by Geoff Holdcroft on behalf of Tom Faulkner and Suffolk Coastal Conservatives all of 4 Cumberland Street, Woodbridge, IP12 4AB
           </p>
 
           <p className="mt-2">
