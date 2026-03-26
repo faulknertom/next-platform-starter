@@ -14,13 +14,13 @@ export default function AldeburghLeistonCandidatePage() {
         "Exploring improvements to footpaths, cycle routes and local transport so towns and villages across our area are better connected.",
       image: "/images/tom-ebike.jpg",
       alt: "Tom Faulkner discussing walking and cycling routes in the local area",
-      imageClassName: "h-56 w-full object-cover",
+      imageClassName: "h-56 w-full object-cover object-top",
     },
     {
     title: "Championing local businesses",
     text:
       "Local businesses are vital to Aldeburgh, Leiston and our surrounding villages, especially at a time when roadworks and disruption could affect visitors, tourism and trade. I want to be a strong voice for the businesses that help keep our area vibrant and prosperous.",
-    image: "/images/highst.jpg",
+    image: "/images/highst2.jpg",
     alt: "Aldeburgh high St in full swing",
     imageClassName: "h-56 w-full object-cover",
     },
