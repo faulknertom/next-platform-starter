@@ -322,7 +322,7 @@ const community = [
             <div className="rounded-[2rem] bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200">
               <div className="space-y-3 text-sm leading-7 text-slate-700">
                 <p>
-                  <strong>Email:</strong> cllr.faulkner@outlook.com
+                  <strong>Email:</strong> tom@votetomfaulkner.co.uk
                 </p>
                <p>
                  <a
