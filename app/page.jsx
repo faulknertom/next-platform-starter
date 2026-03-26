@@ -20,7 +20,7 @@ export default function AldeburghLeistonCandidatePage() {
     title: "Championing local businesses",
     text:
       "Local businesses are vital to Aldeburgh, Leiston and our surrounding villages, especially at a time when roadworks and disruption could affect visitors, tourism and trade. I want to be a strong voice for the businesses that help keep our area vibrant and prosperous.",
-    image: "/images/highst2.jpg",
+    image: "/images/highst.jpg",
     alt: "Aldeburgh high St in full swing",
     imageClassName: "h-56 w-full object-cover",
     },
