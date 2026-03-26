@@ -326,7 +326,7 @@ const community = [
                 </p>
                <p>
                  <a
-    href="https://www.facebook.com/profile.php?id=61579467403113"
+    href="https://www.facebook.com/profile.php?id=61577655006208"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-white text-sm font-medium hover:bg-blue-700 transition"
