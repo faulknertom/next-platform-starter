@@ -4,7 +4,7 @@ export default function AldeburghLeistonCandidatePage() {
       title: "Protect our Heritage Coast",
       text:
         "Supporting projects that conserve the Heritage Coast and resisting unnecessary industrialisation through large energy infrastructure programmes.",
-      image: "/images/tom-river-alde.jpg",
+      image: "/images/river2.jpg",
       alt: "Tom Faulkner by the River Alde",
       imageClassName: "h-56 w-full object-contain bg-slate-100 p-2",
     },
@@ -17,25 +17,25 @@ export default function AldeburghLeistonCandidatePage() {
       imageClassName: "h-56 w-full object-contain bg-slate-100 p-2",
     },
     {
-      title: "Your priorities matter most",
-      text:
-        "My third priority will be yours. I want to attend local meetings, listen properly and put my time and energy where residents most want support.",
-      image: "/images/tom-potholes.jpg",
-      alt: "Tom Faulkner highlighting potholes in Aldeburgh",
-      imageClassName: "h-56 w-full object-cover object-center",
+    title: "Championing local businesses",
+    text:
+      "Local businesses are vital to Aldeburgh, Leiston and our surrounding villages, especially at a time when roadworks and disruption could affect visitors, tourism and trade. I want to be a strong voice for the businesses that help keep our area vibrant and prosperous.",
+    image: "/images/highst2.jpg",
+    alt: "Aldeburgh high St in full swing",
+    imageClassName: "h-56 w-full object-cover object-top",
     },
   ];
 
 const community = [
   {
-    title: "Supporting local business",
+    title: "Supporting local people",
     image: "/images/tom-butcher.jpg",
     alt: "Tom Faulkner visiting a local butcher",
     text: "Independent businesses help give Aldeburgh, Leiston and our surrounding villages their character and vitality.",
     imageClassName: "h-90 w-full object-cover object-top",
   },
   {
-    title: "Supporting a strong sense of community",
+    title: "Supporting our community",
     image: "/images/aldeburgh-horses.jpeg",
     alt: "Horses outside a pub on Aldeburgh High Street",
     text: "Aldeburgh, Leiston and our surrounding villages have a unique character built on strong community spirit. Supporting local events, businesses and gathering places helps keep that spirit alive.",
